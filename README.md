@@ -21,23 +21,23 @@ The goal of this project is not only to implement arithmetic operations, but als
 
 
 swe-testing-assignment/
-│
-├── quickcalc/ # Core calculator logic
-│ ├── calculator.py
-│ ├── cli.py
-│ ├── errors.py
-│ └── init.py
-│
-├── tests/ # Unit and integration tests
-│ ├── test_unit_calculator.py
-│ └── test_integration_cli.py
-│
-├── .github/workflows/ # Continuous Integration configuration
-│ └── python-tests.yml
-│
-├── README.md
-├── TESTING.md
-└── pyproject.toml
+
+quickcalc/ # Core calculator logic
+  calculator.py
+  cli.py
+  errors.py
+  init.py
+
+tests/ # Unit and integration tests
+  test_unit_calculator.py
+  test_integration_cli.py
+
+.github/workflows/ # Continuous Integration configuration
+  python-tests.yml
+
+  README.md
+  TESTING.md
+  pyproject.toml
 
 
 ---
